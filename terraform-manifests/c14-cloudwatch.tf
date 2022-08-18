@@ -1,5 +1,5 @@
 resource "aws_cloudwatch_dashboard" "main" {
-  dashboard_name = "${terraform.workspace}-cloudwatch-main-dashboard"
+  dashboard_name = "Master-Cloudwatch-Main-Dashboard"
   
   dashboard_body = <<EOF
 {
