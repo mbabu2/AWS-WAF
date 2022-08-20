@@ -26,6 +26,7 @@ variable "regional_rule" {
 variable "scope" {
   type        = string
   description = "The scope of this Web ACL. Valid options: CLOUDFRONT, REGIONAL(ALB)."
+  default     = "CLOUDFRONT"
 }
 
 variable "wafv2_rate_limit_rule" {
